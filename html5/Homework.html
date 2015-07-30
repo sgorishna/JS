@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/Homework.js"></script>
+</head>
+<body>
+	<h3>Internal js:</h3>
+	<script type="text/javascript">
+		var a = 10;
+		var b = "20";
+		var c = a + b;
+		var d = a + parseInt(b);
+
+		var s = "a.v.d.s.e.r.t.b.v.d";
+		var array = s.split(".");
+		document.write("a= " + a + "<br>");
+		document.write("b = " + "'" + b + "'" + "<br>");
+		document.write("a+b = " + c + "<br>");
+		document.write("a+b = " + d + "<br>");
+
+		document.write("string = " + s + "<br>");
+		for (var i = 0; i < array.length; i++) {
+			document
+					.write("array " + "[" + i + "]" + " = " + array[i] + "<br>");
+		}
+	</script>
+
+	<h3>External js:</h3>
+
+	<script>
+		func();
+
+		arrayToString();
+		
+		table(10);
+		
+	</script>
+
+</body>
+</html>
